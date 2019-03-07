@@ -369,7 +369,7 @@ iex> list = [1, 2, 3]
 iex> [0] ++ list
 [0, 1, 2, 3]
 
-# This is slow as we need to traverse `list` to append 4
+# This is slow as we need to traverse `list` to append `[4]`
 iex> list ++ [4]
 [1, 2, 3, 4]
 ```
